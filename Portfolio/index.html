@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Vijay Kurhade | Portfolio</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Picture" class="profile-img">
+    <h1 id="name">Nayan Vijay Kurhade</h1>
+    <p id="role">Web Development Intern | HTML & CSS</p>
+
+    <div class="social-icons">
+        <a href="#" class="github" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</div>
+
+<!-- About -->
+<section class="about">
+    <h2>About Me</h2>
+    <p id="about-text">
+        I am a passionate beginner web developer with a strong interest in
+        creating clean, responsive, and user-friendly websites.
+        Currently, I am focusing on mastering HTML and CSS while building
+        real-world projects to improve my practical skills.
+        <br><br>
+        I enjoy learning new technologies, experimenting with layouts,
+        and improving UI design. My goal is to grow as a front-end developer
+        and contribute to meaningful web projects during my internship.
+    </p>
+</section>
+
+<!-- Skills -->
+<section class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills" id="skills-container">
+        <!-- Skills will be loaded dynamically via JavaScript -->
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="projects-section">
+    <h2>My Projects</h2>
+    <div class="projects" id="projects-container">
+        <!-- Projects will be loaded dynamically via JavaScript -->
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>Contact Information</h2>
+    <p><i class="fa-solid fa-envelope"></i> <span id="email">nayan.kurhade@example.com</span></p>
+    <p><i class="fa-solid fa-phone"></i> <span id="phone">+91 98765 43210</span></p>
+    <p><i class="fa-solid fa-location-dot"></i> <span id="location">Pune, India</span></p>
+
+    <button class="btn" id="download-resume">Download Resume</button>
+    <button class="btn secondary" id="contact-btn">Send Message</button>
+</section>
+
+<!-- Contact Modal -->
+<div id="contact-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Send Me a Message</h2>
+        <form id="contact-form">
+            <input type="text" id="modal-name" placeholder="Your Name" required>
+            <input type="email" id="modal-email" placeholder="Your Email" required>
+            <textarea id="modal-message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p id="copyright">© 2026 Nayan Vijay Kurhade | Personal Portfolio</p>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
